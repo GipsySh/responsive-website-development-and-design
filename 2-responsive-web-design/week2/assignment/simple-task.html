@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title></title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-default">          
+          <div class="container-fluid">
+              
+            <!-- collapsed navbar -->
+            <div class="navbar-header">
+                <button
+                    type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#main_navbar"
+                    area-expanded="false">
+                
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>  <!-- end collapsed navbar -->
+
+            <!-- un-collapsed navbar -->
+            <div 
+                class="collapse navbar-collapse"
+                id="main_navbar"
+                >             
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="my-tasks.html">My Tasks</a></li>                    
+                </ul>
+            </div>  <!-- end un-collapsed navbar -->
+                
+          </div>
+      </nav>
+      
+      <div class="container"><h1>My tasks</h1>
+          
+          <!-- start breadcumb -->
+          <ol class="breadcrumb">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="my-tasks.html">My tasks</a></li>
+              <li><a href="simple-task.html">Task description</a></li>
+          </ol>
+          <!-- end breadcumb -->
+          
+                  
+          <div>
+                <label>
+                    <input type="checkbox">Create page with case studies
+                </label>
+          </div>
+          
+          <div class="row">         
+              
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                               
+                <p><img class="user-photo" src="images/img_1.jpg" /></p>
+                <p class="task-info">Assigned to: Yulia Shlykova</p>
+                <p class="task-info">Due to: 21.02.2016</p>
+                
+                <p class="task-description">The purpose of the page is to describe examples of successful projects.</p>
+                <p>It must contains the company title, the project goals, period, description and rezults.</p>
+            </div>
+            
+          </div> <!-- end row -->
+          
+      </div>    <!-- end container -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
